@@ -1,7 +1,3 @@
-Peço desculpa pela demora, mas acabou sendo bem corrido pra mim esse último mês (DICA: Não comece um projeto na sua última etapa do semestre da faculdade!). 
-
-O mais importante agora é conseguir estruturar o projeto de uma maneira que seja sustentável levar pra frente. 
-
 ✨Eu acredito muito no que estamos tentando fazer! :D ✨
 
 Eu quero muito que o Codando Juntas seja real e que a gente consiga aprender programação e arrasar, e pra isso preciso da ajuda de vocês!  
