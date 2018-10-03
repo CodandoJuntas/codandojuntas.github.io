@@ -1,6 +1,24 @@
-title: Minimal theme
+title: Codando Juntas
 logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
+description: Capacitando programadoras no Brasil.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
+encoding: UTF-8
+exclude: ["*.gem", "*.gemspec", "Gemfile", "Gemfile.lock", "node_modules", "Rakefile", "starter-kit", "vendor"]
+lang: pt-br
+
+sass:
+  style: compressed
+
+google:
+  #analytics:
+  #plus:
+  #tagmanager
+#email:
+facebook:
+  group: groups/1771676209561581/
+  page: codandojuntas
+github: CodandoJuntas
+twitter: codandojuntas
+
