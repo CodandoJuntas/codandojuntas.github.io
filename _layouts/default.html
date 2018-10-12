@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+  <head>
+    <meta charset={{site.encoding}}>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">      
+        {% if site.logo %}
+        <a class="header__logo__link"  href="{{ "/" | absolute_url }}">
+          <img class="header__logo__image" src="{{site.logo | relative_url}}" alt="Logo" />
+        </a>
+        {% endif %}
+        
+        {% include nav.html %}
+      </header>
+      <main class="main">
+        <section class="default__section main__section main__section__principal">
+          <!-- <div class="default__content main__section__content main__section__principal__content">
+            <h1 class="default__title main__section__title">Codando(Juntas)</h1>
+            <p class="default__text main__section__text">Feito de mulheres para mulheres</p>
+          </div> -->
+        </section>
+        <div class="main__wrapper">
+          {% include conteudo.html %}
+          {% include eventos.html %}
+          <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        </div>
+        {% include social.html %}
+      </main>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    {% if site.google_analytics %}
+    {% endif %}
+  </body>
+</html>

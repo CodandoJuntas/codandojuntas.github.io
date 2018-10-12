@@ -1,0 +1,16 @@
+<section class="default__section main__section--eventos">
+  {% for event in site.data.event %}
+  <div class="main__section__box">
+    <a href="{{ event.link }}" target="_blank" role="noopener noreferrer">
+      <picture class="default__picture main__section__picture">
+        <img alt="{{ event.title }}" class="default__image main__section__image" src="{{ event.image }}" />
+      </picture>
+      <div class="main__section__content">
+        <h3 class="default__title main__section__title">{{ event.title }}</h3>
+        <p class="default__text main__section__text">{{ event.content }}</p>
+        <button class="default__button main__section__button">Saiba mais</button>
+      </div>
+    </a>
+  </div>
+  {% endfor %}
+</section>

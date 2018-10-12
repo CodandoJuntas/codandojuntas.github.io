@@ -1,0 +1,22 @@
+- title: "Sobre nós"
+  content:
+    - "Atualmente a iniciativa conta com voluntárias de várias partes do país e cerca de 100 mulheres estudando JavaScript."
+    - "Em conjunto dispomos de um grupo no Facebook que conta com mais de 2.000 mulheres que estão interessadas em estudar ou compartilhar conhecimentos e experiências de forma a ajudar umas as outras."
+  slug: "sobre"
+- title: "Como funciona"
+  content:
+    - "Mulheres cis e trans - que possuam os mais diversos níveis e tipos de conhecimento relacionado à programação são convidadas a juntarem-se a nós em uma comunidade segura e familiar em que as mesmas possam se sentir acolhidas."
+    - "Incentivamos as participantes a sentirem-se livres para esclarecer suas dúvidas e compartilhar suas experiências de vida na área. As mulheres são convidadas a produzir conteúdo e compartilhá-lo com o grupo."
+  slug: "como-funciona"
+- title: "O que promovemos?"
+  content:
+    - "A área de Tecnologia ainda é predominantemente um ambiente masculino e buscamos incentivar as mulheres a conhecerem mais a respeito e encorajá-las a desenvolver suas habilidades."
+    - "O Codando Juntas propicia oportunidades de criação de conteúdo e participação na comunidade de forma a ser parte no processo de capacitação técnica e desenvolvimento pessoal destas mulheres com o intuito de colaborar para a emancipação das mesmas e assim ajudá-las a ingressar no mercado de trabalho."
+  slug: "o-que-promovemos"
+  list:
+    - "<b>Praticar:</b> <span>Por meio do consumo e incentivo à produção de conteúdo; - Tutoriais, Cursos, Projetos, Desafios</span>"
+    - "<b>Compartilhar:</b> <span>Por meio das trocas de experiência entre as participantes; - Dúvidas, Palestras, Discussões</span>"
+    - "<b>Conectar:</b> <span>Por meio da interação, as participantes são incentivadas a conhecer pessoas e o ecossistema nacional e local; -  Participação em eventos, organização de grupo de estudos e divulgação de oportunidades.</span>"
+- title: "Como participar?"
+  content: "Basta entrar em contato conosco por meio de nossas redes sociais nos links abaixo para ser parte da comunidade! <b>Aguardamos o seu contato e desde já sinta-se bem-vinda!</b>"
+  slug: "como-participar"

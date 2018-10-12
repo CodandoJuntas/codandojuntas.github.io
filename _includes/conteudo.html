@@ -1,0 +1,35 @@
+{% for section in site.data.content %}
+
+<section class="default__section main__section--{{ section.slug }}" id="{{ section.slug }}">
+  <h2 class="default__title main__section--{{ section.slug }}__title">{{ section.title }}</h2>
+  {% if section.content %}
+  {% for contents in section.content %}
+  <p class="default__text main__section--{{ section.slug }}__text">{{ contents }}</p>
+  {% endfor %}
+  {% endif %}
+  {% if section.list %}
+  <ul class="default__list main__section--{{ section.slug }}__list">
+    {% for items in section.list %}
+    {% for item in items %}
+    <li class="default__list__item main__section--{{ section.slug }}__list__item">{{ item }}</li>
+    {% endfor %}
+    {% endfor %}
+  </ul>
+  {% endif %}
+  {% if section.subcontent %}
+  {% for contents in section.subcontent %}
+  <p class="default__text main__section--{{ section.slug }}__text">{{ contents }}</p>
+  {% endfor %}
+  {% endif %}
+  {% if section.anotherlist %}
+  <ul class="default__list default__list--another main__section--{{ section.slug }}__list">
+    {% for items in section.anotherlist %}
+    {% for item in items %}
+    <li class="default__list__item default__list__item--another main__section--{{ section.slug }}__list__item">{{ item }}</li>
+    {% endfor %}
+    {% endfor %}
+  </ul>
+  {% endif %}
+</section>
+
+{% endfor %}
